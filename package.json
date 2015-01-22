@@ -1,0 +1,54 @@
+{
+  "name": "glsl-hsl2rgb",
+  "version": "1.0.0",
+  "description": "HSL to RGB color conversion in GLSL",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "a-big-triangle": "^1.0.0",
+    "browserify": "^8.1.1",
+    "canvas-pixels": "0.0.0",
+    "domready": "^1.0.7",
+    "faucet": "0.0.1",
+    "glslify": "^1.6.0",
+    "smokestack": "^3.2.0",
+    "tap-closer": "^1.0.0",
+    "tape": "^3.4.0",
+    "webgl-context": "^2.1.1",
+    "wzrd": "^1.2.1",
+    "xtend": "^4.0.0"
+  },
+  "scripts": {
+    "test": "browserify test.js -t glslify | tap-closer | smokestack | faucet",
+    "start": "wzrd test.js -- -t glslify"
+  },
+  "keywords": [
+    "glsl",
+    "blend",
+    "mode",
+    "rgb",
+    "hsl",
+    "hue",
+    "saturation",
+    "sat",
+    "light",
+    "lightness",
+    "stackgl",
+    "ecosystem:stackgl",
+    "glslify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/glsl-hsl2rgb.git"
+  },
+  "homepage": "https://github.com/Jam3/glsl-hsl2rgb",
+  "bugs": {
+    "url": "https://github.com/Jam3/glsl-hsl2rgb/issues"
+  }
+}
