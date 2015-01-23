@@ -1,6 +1,6 @@
 {
   "name": "glsl-hsl2rgb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HSL to RGB color conversion in GLSL",
   "main": "index.js",
   "license": "MIT",
