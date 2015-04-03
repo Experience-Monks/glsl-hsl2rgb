@@ -9,7 +9,7 @@ HSL to RGB color conversion in GLSL.
 
 ...
     //75deg hue, 50% sat, 25% lightness
-    vec3 rgb = hsl2rgb(75.0/360.0, 0.5, 0.25);
+    vec3 rgb = hsl2rgb(vec3(75.0/360.0, 0.5, 0.25));
     gl_FragColor = vec4(rgb, 1.0);
 
 ```
