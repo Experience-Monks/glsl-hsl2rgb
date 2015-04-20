@@ -37,4 +37,8 @@ vec3 hsl2rgb(vec3 hsl) {
     return rgb;
 }
 
+vec3 hsl2rgb(float h, float s, float l) {
+    return hsl2rgb(vec3(h, s, l));
+}
+
 #pragma glslify: export(hsl2rgb)
